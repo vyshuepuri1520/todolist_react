@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.button-complete{
+  color:#27cd32;
+}
+
+.button-edit{
+  color:#c5b208;
+  margin-right: 10px;
+}
+.button-delete{
+  color:rgb(230, 32, 32);
+  margin-right: 10px;
+
+}
+
+
+.button-save{
+  color:rgb(32, 134, 230);
+}
+
+.brand{
+  color:white;
+}
+
+body {
+  background-image: url('https://htmlcolors.com/gradients-images/53-light-purple-gradient.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional, for a fixed background */
+  /* Other CSS styles */
+}
+
+
