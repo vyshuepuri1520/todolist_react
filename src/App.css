@@ -61,11 +61,16 @@
 }
 
 body {
-  background-image: url('https://htmlcolors.com/gradients-images/53-light-purple-gradient.jpg');
+  background-image: url('/src/bg-image.jpg');
   background-size: cover; 
   background-repeat: no-repeat;
-  background-attachment: fixed; /* Optional, for a fixed background */
-  /* Other CSS styles */
+  background-attachment: fixed; 
+}
+
+
+p{
+  font-size: large;
+  font-weight: 450;
 }
 
 
