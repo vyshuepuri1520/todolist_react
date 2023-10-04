@@ -11,7 +11,7 @@ const Login = (props) => {
     if (user && user.password === credentials.password) {
         localStorage.setItem('authenticatedUser', JSON.stringify(user));
         props.showAlert("Login Successfully","success");
-        navigate("/");
+        navigate("/todolist_react");
       } 
       else {
         props.showAlert("Invalid credentials","danger");

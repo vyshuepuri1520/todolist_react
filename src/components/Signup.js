@@ -23,7 +23,7 @@ const Signup = (props) => {
             localStorage.setItem('users', JSON.stringify(users));
             localStorage.setItem('authenticatedUser', JSON.stringify(newUser));
             props.showAlert("Account Created Successfully", "success");
-            navigate("/");
+            navigate("/todolist_react");
         }
     }
 
