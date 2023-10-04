@@ -5,11 +5,9 @@ import { useNavigate } from 'react-router-dom';
 const TodoList = () => {
   let navigate = useNavigate();
 
-  // Get the userId from local storage or set a default value
   const [tasks, setTasks] = useState([]);
   const [newTask, setNewTask] = useState({ description: '', deadline: '' });
 
-  // Load tasks from local storage for the specific user when the component mounts
   useEffect(() => {
     if (!localStorage.getItem('authenticatedUser')) {
       navigate('/login');

@@ -78,19 +78,19 @@ const Task = ({ index, task, modifyTask, deleteTask, userId, deadline }) => {
             <div className="col-md-4 text-right">
               <FontAwesomeIcon
                 icon={faEdit}
-                className="button-edit  custom-cursor task-button float-right mx-2"
+                className="button-edit custom-cursor task-button float-right mx-2"
                 onClick={handleEdit}
               />
               <span className="button-edit custom-cursor" onClick={handleEdit}>Edit</span>
               <FontAwesomeIcon
                 icon={faTrash}
-                className="button-delete  custom-cursor task-button float-right mx-2"
+                className="button-delete custom-cursor task-button float-right mx-2"
                 onClick={() => deleteTask(index)}
               />
               <span className="button-delete custom-cursor " onClick={() => deleteTask(index)}>Delete</span>
               <FontAwesomeIcon
                 icon={faCheckCircle}
-                className={`button-complete custom-cursor  task-button float-right mx-2 ${completed ? "completed" : ""}`}
+                className={`button-complete custom-cursor task-button float-right mx-2 ${completed ? "completed" : ""}`}
                 onClick={handleComplete}
               />
               <span className="button-complete custom-cursor " onClick={handleComplete}>Completed</span>
