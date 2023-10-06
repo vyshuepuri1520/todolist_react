@@ -28,7 +28,7 @@ function App() {
   return (
     <>
     <Router>
-          <Navbar name="ToDoHub" />
+          <Navbar />
           <Alert alert={alert} />
           <div className="container">
             <Routes>
